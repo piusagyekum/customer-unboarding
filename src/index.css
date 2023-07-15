@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./images/office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 400px;
+}
+
+.login .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("./images/falcon.png");
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+.login label {
+  display: block;
+}
+
+.login h1 {
+  text-align: center;
+  border-bottom: 1px solid silver;
+  padding: 20px;
+}
+.login form {
+  margin: 20px;
+}
+
+.login input {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 1px silver solid;
+}
+
+.login input[type="submit"] {
+  background-color: black;
+  color: white;
+
+  font-size: large;
+}
+
+.login input[type="submit"]:hover {
+  transform: scale(1.05, 1.1);
+  transition: 0.5s;
+}
+
+/* using same styles for signup page */
+.signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 400px;
+  background-color: rgba(51, 105, 182, 0.5);
+}
+
+.signup .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("./images/falcon.png");
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+}
+
+.signup label {
+  display: block;
+}
+
+.signup h1 {
+  text-align: center;
+  border-bottom: 1px solid silver;
+  padding: 20px;
+}
+.signup form {
+  margin: 20px;
+}
+
+.signup input {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 1px silver solid;
+}
+
+.signup input[type="submit"] {
+  background-color: black;
+  color: white;
+
+  font-size: large;
+}
+
+.signup input[type="submit"]:hover {
+  transform: scale(1.05, 1.1);
+  transition: 0.5s;
+}
+
+.getusers {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.getusers table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: rgb(220, 209, 209);
+}
+
+.getusers th,
+td {
+  border-bottom: 1px solid rgba(226, 222, 222, 0.496);
+  border-radius: 10px;
+  height: 2rem;
+}
+
+.getusers th {
+  text-align: left;
+}
+
+.errMessage {
+  background-color: red;
+  text-align: center;
+  height: 30px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+}
+
+td {
+  width: 200px;
+  overflow: hidden;
+}
